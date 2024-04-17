@@ -1,0 +1,28 @@
+{
+  "name": "Pega_SalesAutomation_OfferSummary",
+  "label": "Offer Summary",
+  "description": "Offer Summary",
+  "organization": "Pega",
+  "version": "1.0.0",
+  "library": "SalesAutomation",
+  "allowedApplications": [],
+  "componentKey": "Pega_SalesAutomation_OfferSummary",
+  "type": "Widget",
+  "subtype": "CASE",
+  "icon": "OneColumnPage.svg",
+  "properties": [
+    {
+      "name": "label",
+      "label": "Label value",
+      "format": "TEXT"
+    },
+    {
+      "name": "OfferID",
+      "label": "OfferID",
+      "format": "PROPERTY"
+    }
+  ],
+  "defaultConfig": {
+    "label": "@L $this.label"
+  }
+}
